@@ -1,0 +1,30 @@
+body {
+  font-size: 62.5%;
+  font-family: Outfit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Young Serif";
+}
+
+#omelette-img {
+  width: 100%;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 10px;
+}
+
+h1 {
+  align-self: flex-start;
+}
