@@ -37,6 +37,7 @@ h1 {
 h2 {
   align-self: flex-start;
   font-size: 2rem;
+  color: hsl(14, 45%, 36%);
 }
 
 h4 {
@@ -58,7 +59,7 @@ li {
 
 .preparation {
   width: 95%;
-  height: 10.5rem;
+  height: 11rem;
   background-color: hsl(330, 100%, 98%);
   border-radius: 15px;
 }
@@ -71,4 +72,25 @@ hr {
 
 ol {
   align-self: flex-start;
+}
+
+strong {
+  font-size: 23px;
+}
+
+table {
+  font-size: 1.5rem;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td,
+tr {
+  border-bottom: 0.5px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+.nutrition {
+  color: hsl(14, 45%, 36%);
 }
