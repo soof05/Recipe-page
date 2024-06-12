@@ -34,22 +34,41 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  align-self: flex-start;
+  font-size: 2rem;
+}
+
 h4 {
   margin-left: 15px;
-  font-size: 1rem;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 1.5rem;
   text-align: left;
   font-weight: 600;
+  color: hsl(332, 51%, 32%);
 }
 
 p,
 li {
-  font-size: 1rem;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 1.8;
 }
 
 .preparation {
   width: 95%;
   height: 10.5rem;
-  background-color: coral;
+  background-color: hsl(330, 100%, 98%);
   border-radius: 15px;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  color: black;
+}
+
+ol {
+  align-self: flex-start;
 }
