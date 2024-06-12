@@ -94,3 +94,24 @@ tr {
 .nutrition {
   color: hsl(14, 45%, 36%);
 }
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
+  .container {
+    height: 100%;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    background-color: white;
+  }
+  #omelette-img {
+    width: 90%;
+    margin-top: 15px;
+    border-radius: 12px;
+  }
+}
